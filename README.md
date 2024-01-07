@@ -60,8 +60,8 @@ $> < file1 cmd1 | cmd2 > file2
 ## Requirements
 
 - **Makefile:** Must compile source files without relinking.
-- **Error Handling:** Thoroughly handle errors; the program should not quit unexpectedly.
-- **Memory Management:** No memory leaks allowed.
+- **Error Handling:** Thoroughly handle errors; the program do not quit unexpectedly.
+- **Memory Management:** No memory leaks.
 
 # Bonus Part
 
