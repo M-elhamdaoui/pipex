@@ -1,10 +1,10 @@
 # Pipex Project Readme
 
-## 1. Program Overview
+## Program Overview
 
 **Program Name:** pipex
 
-## 2. Makefile rules
+### 1. Makefile rules
 
 - `NAME`: Target executable name
 - `all`: Compiles the program
@@ -12,7 +12,7 @@
 - `fclean`: Removes object files and the executable
 - `re`: Rebuilds the project
 
-## 3. Program Execution
+### 2. Program Execution
 
 ```bash
 ./pipex file1 cmd1 cmd2 file2
@@ -25,19 +25,19 @@
 - **Behavior:**
   - Mimics the shell command: `< file1 cmd1 | cmd2 > file2`
 
-## 4. External Functions
+### 3. External Functions
 
 - `open`, `close`, `read`, `write`
 - `malloc`, `free`, `perror`
-- `strerror`, `access`, `dup`, `dup2`
+- `access`, `dup`, `dup2`
 - `execve`, `exit`, `fork`, `pipe`
 -  `wait`, `waitpid`,`ft_printf`
 
-## 5. Libft
+### 4. Libft
 
 Libft is a project already coded by me in 42 curses.
 
-## 6. Description
+### 5. Description
 
 This project focuses on handling pipes. The program executes commands as described in the shell command:
 
@@ -65,7 +65,7 @@ $> < file1 cmd1 | cmd2 > file2
 
 # Bonus Part
 
-## 1. Handling Multiple Pipes
+### Handling Multiple Pipes
 
 ```bash
 $> ./pipex file1 cmd1 cmd2 cmd3 ... cmdn file2
